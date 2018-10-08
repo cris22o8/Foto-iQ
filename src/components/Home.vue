@@ -6,8 +6,8 @@
         <a href="#" class="brand-logo"><img src="./../assets/iq_logo.png" height="100px" alt="iQ Sudio Logo"></a>        
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#home">Inicio</a></li>
-          <li><a href="#contacto" v-smooth-scroll>Servicios</a></li>
-          <li><a href="collapsible.html">Contacto</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </div>
     </nav>
@@ -114,7 +114,7 @@
       </div>
     </div>
 
-    <div class="container-full brown darken-4" 
+    <div id="servicios" class="container-full brown darken-4" 
       style="background-image:url(img/arq.a98ffea4.jpg); 
       background-position: right; background-color: #000;
       background-size: cover;
@@ -122,15 +122,52 @@
 
       <div class="row">
 
-        <div class="form-rgba col m6">
-          <h5>Fotografías para arquitectura</h5>
-          <i class="parrafo">Capturar el paisaje urbano es una de
-            las más antiguas expresiones del arte.
-            La <b class="parrafo">fotografía arquitectónica</b> profesional
+        <div class="form1-rgba col m6">
+          <h5 style="padding-bottom: 20px">Fotografías para arquitectura</h5>
+          <i class="parrafo">Capturar el paisaje urbano es una de<br>
+            las más antiguas expresiones del arte.<br>
+            La <b class="parrafo">fotografía arquitectónica</b> profesional <br>
             hará brillar tus instalaciones.</i>
+
+          <p class="parrafo">La <b>fotografía de arquitectura</b> debe resaltar las cualidades tanto interiores como <br>
+              exteriores de tus instalaciones, es decir, hacer resaltar el espacio y proporciones interiores, <br>
+              así como el paisaje que le rodea.
+          </p>
+
+          <a href="#contacto" class="waves-effect waves-light btn" style="color">CONTACTANOS</a>
         </div>
+
       </div>
 
+    </div>
+
+    <div class="container-full brown darken-4" 
+      style="background-image:url(https://manosalaobracr.com/wp-content/uploads/2017/07/dia_02-1518266703.jpg); 
+      background-position: left; background-color: #000;
+      background-size: cover;
+      ">
+
+      <div class="row">
+        <div class="form1-rgba col m6 offset-m6">
+          <h5 style="padding-bottom: 20px">Fotografías para eventos</h5>
+          <i class="parrafo">
+            Preserva el recuerdo o crea testigos sobre <br>
+            tu evento, ya sea social como <b class="parrafo">Bodas o <br>
+            XV Años</b>; corporativos como <b class="parrafo">caterings, <br>
+            aniversarios o conferencias </b> o de <br>
+            egresados y <b class="parrafo">graduaciones.</b>
+          </i>
+
+          <p class="parrafo">
+            La fotografía de eventos sociales o corporativos  es un tipo de fotoreportaje que <br> 
+            debe transmitir el momento que se vive dentro del evento, para así lograr <br>
+            despertar emociones dentro de quien las vea.
+          </p>
+
+          <a href="#contacto" class="waves-effect waves-light btn" style="color">CONTACTANOS</a>
+            
+        </div>
+      </div>
     </div>
 
   </div>
@@ -217,13 +254,15 @@ nav {
   padding: 10px;
 }
 
-.form-rgba {
+.form1-rgba {
   margin: 10px;
   background: #eeeeee;
-  background: rgba(0,0,0,0.8);
-  padding-top: 40px !important;
+  background: rgba(0, 0, 0, 0.8);
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
   padding-right: 30px;
   color: #fff !important;
+  padding-left: 30px !important;
 }
 
 .row {margin-bottom: 0;}
