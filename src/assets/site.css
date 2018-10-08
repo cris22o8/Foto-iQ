@@ -1,0 +1,55 @@
+.color1 {
+  color: #283149;
+}
+.color2 {
+  color: #404b69;
+}
+.color3 {
+  color: #00818a;
+}
+.color4 {
+  color: #dbedf3;
+}
+p {
+  font-size: x-large;
+}
+.fondo1 {
+  background: #283149;
+}
+.fondo2 {
+  background: #404b69;
+}
+.fondo3 {
+  background: #00818a;
+}
+.fondo4 {
+  background: #dbedf3;
+}
+
+footer {
+  background: #00818a !important;
+}
+
+.main {
+  right: 0;
+  left: 0;
+  margin-top: 50%;
+  position: relative;
+  width: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.test {
+  background-image: url(../assets/autonomos.jpg);
+  background-size: contain;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        margin-top: 170%;
+        
+      }
+}
