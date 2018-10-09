@@ -42,10 +42,6 @@ footer {
   text-transform: uppercase;
 }
 
-.test {
-  background-image: url(../assets/autonomos.jpg);
-  background-size: contain;
-}
 
 @media only screen and (max-width: 600px) {
     .main {
