@@ -4,7 +4,7 @@
     <nav class="black">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo"><img src="./../assets/iq_logo.png" height="100px" alt="iQ Sudio Logo"></a>        
-        <!-- <a href="#" class="brand-logo"><img src="./../assets/lamp.jpg" height="100px" alt="iQ Sudio Logo"></a>         -->
+        <!-- <a href="#" class="brand-logo"><img src="./../assets/studio.jpg" height="100px" alt="iQ Sudio Logo"></a>         -->
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#home">Inicio</a></li>
           <li><a href="#servicios">Servicios</a></li>
@@ -171,6 +171,30 @@
       </div>
     </div>
 
+<div class="container-full balck" >
+      <div class="row">
+        <div class="form1-rgba col m6" style="padding:30px">
+          <h5 style="padding-bottom: 20px">Fotografías de Productos</h5>
+          <h6>Fotografía para alimentos y bebidas</h6>
+          <i class="parrafo">
+            Invita a los comensales con fotografías que sean dignas de la calidad de tus alimentos.
+            O crea tu catálogo de productos digital o impreso, para dar mayor presentación a tus productos.
+          </i>
+
+          <p class="parrafo">
+            La fotografía de comida debe ser un festín para los ojos, en ella deben resaltar la textura y los colores del platillo, para así despertar el apetito en tus comensales o lectores.
+          </p>
+
+          <a href="#contacto" class="waves-effect waves-light btn" style="color">CONTACTANOS</a>
+            
+        </div>
+
+        <div class="col m5">
+          <img src="./../assets/halls.jpg" class="responsive-img" alt="Fotografia de Productos">
+        </div>
+      </div>
+    </div>
+  
   </div>
 </template>
 
