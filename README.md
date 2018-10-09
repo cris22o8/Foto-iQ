@@ -1,4 +1,4 @@
-# rua-gestoria
+# iq-photostudio
 
 ## Project setup
 ```

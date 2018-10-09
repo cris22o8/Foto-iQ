@@ -4,6 +4,7 @@
     <nav class="black">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo"><img src="./../assets/iq_logo.png" height="100px" alt="iQ Sudio Logo"></a>        
+        <!-- <a href="#" class="brand-logo"><img src="./../assets/lamp.jpg" height="100px" alt="iQ Sudio Logo"></a>         -->
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#home">Inicio</a></li>
           <li><a href="#servicios">Servicios</a></li>
@@ -24,9 +25,9 @@
     </div>
     
     <div class="container-full brown darken-4" 
-      style="background-image:url(https://www.fotografiaprofesional.mx/wp-content/uploads/2018/02/eventos-opt.jpg); 
+      style="background-image:url(img/lamp.91ef92a4.jpg); 
       background-position: left; background-color: #000;
-      background-size: cover;
+      background-size: contain;
       ">
       <div class="row">
         <div class="col m6">
@@ -142,7 +143,7 @@
     </div>
 
     <div class="container-full brown darken-4" 
-      style="background-image:url(https://manosalaobracr.com/wp-content/uploads/2017/07/dia_02-1518266703.jpg); 
+      style="background-image:url(img/boda.50393487.jpg); 
       background-position: left; background-color: #000;
       background-size: cover;
       ">
